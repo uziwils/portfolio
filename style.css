@@ -70,16 +70,26 @@ footer{
 
 /** brief introduction styling at top of landing page accompanied by image **/
 .brief{
-    background: black;
+    background: darkgreen; /** temporary color to visualize the section, will be changed when reworking the landing page */
+    display: flex;
     margin:0;
     width: 100%;
     padding: 20px 0;
     color: white;
     .titlepage p{
+        display: flex;
+        order: 1;
+        justify-content: center;
         text-align: center;
         font-size: 1.5rem;
         margin: 5px;
         padding: 10px;
+    }
+    .personal-image{
+        display: flex;
+        order: 2;
+        justify-content: left;
+        align-items: center;
     }
     .summary p{
         text-align: center;
