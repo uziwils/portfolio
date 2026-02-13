@@ -76,23 +76,23 @@ footer{
     width: 100%;
     padding: 20px 0;
     color: white;
-    .titlepage p{
-        display: flex;
+    
+    .personal-image img{
         order: 1;
+        justify-content: left;
+        align-items: left;
+    }
+    .portfolio-title p{
+        order: 2;
         justify-content: center;
         text-align: center;
         font-size: 1.5rem;
         margin: 5px;
         padding: 10px;
     }
-    .personal-image{
-        display: flex;
-        order: 2;
-        justify-content: left;
-        align-items: center;
-    }
-    .summary p{
+    .greetings p{
         text-align: center;
+        order: 1;
         font-size: 1.8rem;
         margin: 10px;
         padding: 10px;
