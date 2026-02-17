@@ -70,29 +70,19 @@ footer{
 
 /** brief introduction styling at top of landing page accompanied by image **/
 .brief{
-    background: darkgreen; /** temporary color to visualize the section, will be changed when reworking the landing page */
-    display: flex;
+    background: black;
     margin:0;
     width: 100%;
     padding: 20px 0;
     color: white;
-    
-    .personal-image img{
-        order: 1;
-        justify-content: left;
-        align-items: left;
-    }
-    .portfolio-title p{
-        order: 2;
-        justify-content: center;
+    .greetings p{
         text-align: center;
         font-size: 1.5rem;
         margin: 5px;
         padding: 10px;
     }
-    .greetings p{
+    .summary p{
         text-align: center;
-        order: 1;
         font-size: 1.8rem;
         margin: 10px;
         padding: 10px;
