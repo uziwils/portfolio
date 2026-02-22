@@ -68,49 +68,26 @@ footer{
     }
 }
 
-/** styles the title page of the portfolio */
-.top-page{
-    background: #2f4a3c;
-    color: #f6efe6;
-    min-height: 100vh;
-}
-
+/** brief introduction styling at top of landing page accompanied by image **/
 .brief{
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 4rem;
-    align-items: center;
-}
-
-.personal-image {
-  position: relative;
-  background: #c16a3a;
-  padding: 2rem;
-}
-
-.personal-image img {
-  width: 100%;
-  height: auto;
-  filter: grayscale(100%);
-}
-
-.text h1 {
-  font-size: clamp(4rem, 8vw, 8rem);
-  line-height: 0.9;
-  letter-spacing: 0.1em;
-}
-
-.text {
-  position: relative;
-  .outline {
-    color: transparent;
-    -webkit-text-stroke: 1px #d9b44a;
+    background: black;
+    margin:0;
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+    .greetings p{
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 5px;
+        padding: 10px;
+    }
+    .summary p{
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 10px;
+        padding: 10px;
     }
 }
-
-
-
-
 
 /** properties for centered image appearing at top of landing page **/
 .profile{
